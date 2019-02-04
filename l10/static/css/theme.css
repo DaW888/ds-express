@@ -1,0 +1,42 @@
+h1{
+    background-color: red;
+}
+h2{
+    background-color: aqua;
+}
+
+#cw2Header{
+    width: 200px;
+    text-align: center;
+    color: red;
+    background-color: beige;
+    font-size: 50px;
+    width: 800px;
+}
+#cw2P{
+    font-size: 16px;
+    text-align: center;
+    width: 800px;
+    background-color: aquamarine;
+}
+#cw2Footer{
+    font-size: 14px;
+    text-align: center;
+    width: 800px;
+    background-color: black;
+    color: azure;
+}
+#cw3H1{
+    font-size: 30px;
+    color: red;
+    background-color: antiquewhite;
+}
+.cw3H3{
+    font-size: 20px;
+    color: blue;
+}
+
+select{
+    font-size: 20px;
+    color: blue;
+}

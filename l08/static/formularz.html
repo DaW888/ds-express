@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Dawid Wajda">
+    <meta name="description" content="3ic2">
+    <title>Strona</title>
+    <script>
+        
+    </script>
+</head>
+<body>
+    <form action="/handleForm" method="post">
+        <input type="hidden" name="ukryty">
+        <input type="color" name="kolor">
+        <input type="radio" name="radia">
+        <input type="checkbox" name="czek" value="ab">
+        <input type="checkbox" name="czek" value="ac">    
+        <input type="submit">
+    </form>
+    <br>
+    <form action="/handleUpload" method="post" enctype="multipart/form-data">
+        <input type="file" name="imagetoupload" required accept="image/*">
+        <input type="date" name="data">
+        <input type="text" name="nazwaZdj">
+        <input type="submit">
+    </form>
+</body>
+</html>

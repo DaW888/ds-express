@@ -1,0 +1,22 @@
+<h1>{{subject}}</h1>
+<h1>pobranie elementu tablicy:</h1>
+<h3>{{countries.[0]}}</h3>
+<h1>iteracja przez tablice, ver 1:</h1>
+<h3>
+    {{#with langs as |lang|}}
+        {{lang}}
+    {{/with}}
+</h3>
+<h1>iteracja przez tablice, ver 2:</h1>
+<h3>
+    {{#each countries}}
+        {{@index}} - {{this}} <br>
+    {{/each}}
+
+</h3>
+<h2>iteracja przez obiekt:</h2>
+<h3>
+    {{#each user}}
+        {{@index}} - {{@key}} - {{this}} <br>
+    {{/each}}
+</h3>

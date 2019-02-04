@@ -1,0 +1,11 @@
+<h1 id="cw3H1">{{subject}}</h1>
+<form action="/index041.hbs" method="GET">
+    <select name="wybor" id="wybor" size="3"1>
+        
+            {{#each fields}}
+                <option value="{{name}}">{{name}} </option>
+            {{/each}}
+        
+    </select> <br>
+    <input type="submit" value="wyślij">
+</form>

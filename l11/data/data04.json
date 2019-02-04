@@ -1,0 +1,8 @@
+{
+  "subject": "T: ćwiczenie 5 - partial w osobnym pliku hbs",
+  "books": [
+    { "title": "Lalka Prusa", "lang": "PL", "image": "gfx/lalka.jpg" },
+    { "title": "Hamlet Szekspira", "lang": "ENG", "image": "gfx/hamlet.jpg" },
+    { "title": "Krzyżacy Sienkiewicza", "lang": "PL", "image": "gfx/krzyzacy.jpg" }
+  ]
+}

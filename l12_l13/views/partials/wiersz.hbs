@@ -1,0 +1,49 @@
+{{#if edit}}
+<form action="/appl" method="get" id="appl">
+	<tr>
+		<td>{{@index}}</td>
+		<td>{{ub}}
+			<select name="ub">
+				<option value="TAK">TAK</option>
+				<option value="NIE">NIE</option>
+				<option value="BRAK">BRAK</option>
+			</select>
+		</td>
+		<td>{{be}}
+			<select name="be">
+				<option value="TAK">TAK</option>
+				<option value="NIE">NIE</option>
+				<option value="BRAK">BRAK</option>
+			</select>
+		</td>
+		<td>{{us}}
+			<select name="us">
+				<option value="TAK">TAK</option>
+				<option value="NIE">NIE</option>
+				<option value="BRAK">BRAK</option>
+			</select>
+		</td>
+		<td>{{na}}
+			<select name="na">
+				<option value="TAK">TAK</option>
+				<option value="NIE">NIE</option>
+				<option value="BRAK">BRAK</option>
+			</select>
+		</td>
+		<td><input type="submit" value="cancel" name="{{_id}}" form="appl"></td>
+		<td><input type="submit" value="apply" name="{{_id}}" form="appl"></td>
+	</tr>
+</form>
+{{else}}
+<form action="/modify" method="get" id='modify'>
+	<tr>
+		<td>{{@index}}</td>
+		<td>{{ub}}</td>
+		<td>{{be}}</td>
+		<td>{{us}}</td>
+		<td>{{na}}</td>
+		<td><input type="submit" value="delete" name="{{_id}}" form="modify"></td>
+		<td><input type="submit" value="edit" name="{{_id}}" form="modify"></td>
+	</tr>
+</form>
+{{/if}}

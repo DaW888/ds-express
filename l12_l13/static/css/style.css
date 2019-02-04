@@ -1,0 +1,56 @@
+td{
+	border: 1px solid aquamarine;
+	font-size: 20px;
+	font-family: 'Courier New', Courier, monospace;
+}
+td:nth-child(1){
+	width: 150px;
+}
+td:nth-child(2){
+	width: 20px;
+}
+body{
+	background-color: rgb(27, 27, 27);
+	color: white;
+}
+
+#wszystkie{
+	position: relative;
+	top: -140px;
+	left: 200px;
+}
+
+#wszystkie td{
+	font-size: 18px;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+}
+
+#wszystkie td:nth-child(1){
+	width: 50px;
+}
+
+td > input[value='delete']{
+	color:red;
+	background-color: rgb(34, 34, 34);
+	border: 2px outset red;
+}
+
+td > input[value='edit']{
+	color:aqua;
+	background-color: rgb(34, 34, 34);
+	border: 2px outset blue;
+}
+
+td > input[value='apply']{
+	color:aquamarine;
+	background-color: rgb(34, 34, 34);
+	border: 2px outset rgb(255, 0, 212);
+}
+
+td > input[value='cancel']{
+	color:rgb(255, 0, 234);
+	background-color: rgb(34, 34, 34);
+	border: 2px outset rgb(0, 255, 208);
+}

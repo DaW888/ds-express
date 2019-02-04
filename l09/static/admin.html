@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Dawid Wajda">
+    <meta name="description" content="3ic2">
+    <title>Strona</title>
+    <style>
+        header{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="/main">main</a>
+        <a href="/login">login</a>
+        <a href="/register">register</a>
+        <a href="/admin">admin</a>
+    </header>
+</body>
+</html>
+
+<form onchange="this.submit()" method="post">
+    <input type="submit" name="sort" value="sort">
+    <input type="submit" name="gender" value="gender">
+    <input type="submit" name="show" value="show">
+    <table>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+        </tr>
+    </table>
+    <label><input type="radio" name="sortowanie" value="malejoco"></label>
+    <label><input type="radio" name="sortowanie" value="rosnaco"></label>
+</form>
